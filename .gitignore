@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project specific
+data/
+outputs/
+*.csv
+!requirements.txt
+*.pkl
+*.npy
+*.log
+output.txt
+
+# Environment variables (API keys)
+.env
+.env.local
+
+# Temporary files
+check*.py
+debug*.py
+a.py
+test_*.py
+!test_hsgnn.py
